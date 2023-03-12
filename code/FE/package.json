@@ -1,0 +1,67 @@
+{
+  "name": "animationthree",
+  "version": "0.1.0",
+  "homepage": ".",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/lab": "^5.0.0-alpha.119",
+    "@mui/material": "^5.11.7",
+    "@mui/x-date-pickers": "^5.0.17",
+    "@react-three/drei": "^9.56.12",
+    "@react-three/fiber": "^8.10.1",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@stomp/stompjs": "^6.1.2",
+    "axios": "^1.2.4",
+    "dayjs": "^1.11.7",
+    "gsap": "^3.11.4",
+    "html2canvas": "^1.4.1",
+    "http": "^0.0.1-security",
+    "http-proxy-middleware": "^2.0.6",
+    "nodemon": "^2.0.20",
+    "openvidu-browser": "^2.25.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.7.0",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8",
+    "react-unity-webgl": "^9.4.0",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "sockjs": "^0.3.24",
+    "sockjs-client": "^1.6.1",
+    "styled-components": "^5.3.6",
+    "three": "^0.148.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
